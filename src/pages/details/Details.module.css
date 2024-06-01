@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 100px;
+    min-height: 75vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.image{
+    width: 20vw;
+}
+
+.titreNom{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.imgContainer{
+
+}
+
+.types{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contentContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 40vw; */
+    width: 100%;
+    
+}
+
+
+.likes{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.likes img{
+    height: 25px;
+    max-width: 25px;
+    cursor: pointer;
+}
+
+.reviewContainer{
+    min-width: 18vw;
+}
+.titreReview{
+    font-weight: normal;
+}
+
+
+
